@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>exercicio 5</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<script>
+{
+    var altura = window.prompt("Digite a sua altura: " ,);
+    var sexo = window.prompt("escreva o sexo: ",);
+
+    altura = altura.split(",");
+    sexo = sexo.split(",");
+    var masculino = 0;
+    var feminino = 0;
+    var MA = parseFloat(altura[0]);
+    var sexoMA = sexo[0];
+    for(1=0;1<sexo.length;1++){
+    if(sexo[1] == "masculino"){
+        masculino++;
+    } else if(sexo[1] == "feminino"){
+        feminino++;
+}
+if(parseFloat(altura[1]) > MA){
+MA = parseFloat(altura[1]);
+sexoMA = sexo[1];
+}
+
+}
+
+alert("do sexo masculino temos: "+masculino+" = e do sexo feminino:"+feminino);
+alert("a maior altura é de"+MA+" e pertencem ao sexo"+sexoMA);
+}
+
+</script>
+</head>
+<body>
+</body>
+ </html>
