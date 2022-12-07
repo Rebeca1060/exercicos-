@@ -1,0 +1,19 @@
+quantas pessoas são maiores de idade 
+
+<html>
+
+<head></head>
+<title>quadrado</title>
+<body>
+<script>
+var R = prompt("digite um numero: ")
+R = (Math.sqrt(R))
+alert("a raiz quadrada e: " + R)
+
+
+
+</script>
+
+</body>
+
+</html>
