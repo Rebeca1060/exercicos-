@@ -1,0 +1,20 @@
+exercicio 2
+
+
+<html>
+
+<head></head>
+<title>quadrado</title>
+<body>
+<script>
+var R = prompt("digite um numero: ")
+R = (Math.sqrt(R))
+alert("a raiz quadrada e: " + R)
+
+
+
+</script>
+
+</body>
+
+</html>
