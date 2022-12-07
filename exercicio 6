@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>nomes</title>
+<meta charset="UTF-8>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+{
+ var nomes = prompt("digite alguns nomes")
+ nomes = nomes.split(",");
+
+ for(i=nomes.length-1;i>=0;i--){
+alert(nomes[i]);
+
+
+ }
+
+}
+</script>
+</head>
+<body>
+    
+</body>
+</html>
+
