@@ -1,0 +1,25 @@
+<html>
+<head>
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>data</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+
+<script>
+{
+var data = window.prompt("digite a sua data de nascimento: ",);
+data = data.split("/");
+alert("dia: "+data[0]);
+alert("mês: "+data[1]);
+alert("ano: "+data[2]);
+
+}
+
+
+
+</script>
